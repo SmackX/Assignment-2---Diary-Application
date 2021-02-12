@@ -1,0 +1,15 @@
+<div>
+  <h2>{{ title }}</h2>
+
+
+  <div>
+    <p>{{text1}}</p>
+    <input type="text" name="Time Record" placeholder="mm/dd/yyyy" size="30" [(ngModel)]="DataTime">
+    <p>{{text2}}</p>
+    <input type="text" name="Distanse" placeholder="metre" size="30" [(ngModel)]="Distance">
+    <p>{{text3}}</p>
+    <input type="text" name="Time" placeholder="second" size="30" [(ngModel)]="time">
+    <hr id="HrInDiv">
+    <input type="button" value="save" name="" (click)="Push()">
+  </div>
+</div>

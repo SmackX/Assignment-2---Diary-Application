@@ -1,0 +1,15 @@
+<div>
+  <div><h1>{{value1}}</h1></div>
+  <tr>
+    <td class="tableHead">Data</td>
+    <td class="tableHead">Distance</td>
+    <td class="tableHead">Time</td>
+  </tr>
+  <tr *ngFor="let item of items" >
+    <td class="table">{{item.dateTime}}</td>
+    <td class="table">{{item.distanse}}</td>
+    <td class="table">{{item.time}}</td>
+  </tr>
+</div>
+
+
