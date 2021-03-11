@@ -1,0 +1,10 @@
+<p>parent1-component works!</p>
+<p>Service value: {{ServiceV}}</p>
+
+<div class="component"> <app-child1-component></app-child1-component></div>
+<div class="component"> <app-child2-component></app-child2-component></div>
+
+
+<div class="Div"><input type="text" [(ngModel)]="ParentV">
+  <button class="send" (click)="Push(ParentV)" >Push</button>
+</div>
